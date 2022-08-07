@@ -1,0 +1,18 @@
+<h3>dedicatorias</h3>
+
+<div *ngFor ="let dedicatoria of dedicatorias">
+
+  <h3>
+
+  <a [title] ="dedicatoria.name + 'details'">
+  {{dedicatoria.name}}
+  </a>
+
+</h3>
+
+<p *ngIf ="dedicatoria.descripcion">
+Descripcion : {{dedicatoria.descripcion}}
+</p>
+
+
+</div>
