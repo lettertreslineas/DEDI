@@ -1,18 +1,29 @@
+<div id="contenedor">
 <h3>dedicatorias</h3>
-
+<div id="contdedi">
 <div *ngFor ="let dedicatoria of dedicatorias">
 
-  <h3>
-
-  <a [title] ="dedicatoria.name + 'details'">
+  <h4>
+  <a [title] ="dedicatoria.name  + 'details'">
   {{dedicatoria.name}}
   </a>
 
-</h3>
+</h4>
+
+<img src={{dedicatoria.foto}} height="150px" width="150px">
+
+
+
 
 <p *ngIf ="dedicatoria.descripcion">
 Descripcion : {{dedicatoria.descripcion}}
 </p>
 
+<p>posicion : {{dedicatoria.id}}</p>
+
+<h5>{{dedicatoria.espacio}}</h5>
 
 </div>
+</div>
+
+ </div>
