@@ -3,12 +3,24 @@
   text-align: center;
 }
 
-h3{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: rgb(110, 139, 110);
-
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(238, 236, 245);
+  padding: 10px;
 }
 
-#contdedi{background-color: rgb(173, 226, 173)}
+#contdedi {
+  background-color: rgb(238, 236, 245);
+}
 
-h5{background-color: rgb(255, 255, 255);}
+h5 {
+  background-color: rgb(255, 255, 255);
+}
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}

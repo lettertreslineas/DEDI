@@ -3,23 +3,26 @@
 <div id="contdedi">
 <div *ngFor ="let dedicatoria of dedicatorias">
 
-  <h4>
+<h4>De : {{dedicatoria.de}}</h4>
+<h4>Para : {{dedicatoria.para}}</h4>
+
+
+  <h1>
   <a [title] ="dedicatoria.name  + 'details'">
   {{dedicatoria.name}}
   </a>
-
-</h4>
+</h1>
 
 <img src={{dedicatoria.foto}} height="150px" width="150px">
 
 
 
 
-<p *ngIf ="dedicatoria.descripcion">
+<h4 *ngIf ="dedicatoria.descripcion">
 Descripcion : {{dedicatoria.descripcion}}
-</p>
+</h4>
 
-<p>posicion : {{dedicatoria.id}}</p>
+<h4>posicion : {{dedicatoria.id}}</h4>
 
 <h5>{{dedicatoria.espacio}}</h5>
 
