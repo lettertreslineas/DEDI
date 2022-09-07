@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { imagenes } from '../Imágenes';
 
 @Component({
   selector: 'app-parte-superior',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParteSuperiorComponent implements OnInit {
 
-
+imagenes = imagenes;
 
   constructor() { }
 
