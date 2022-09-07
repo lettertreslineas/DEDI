@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { imagenes } from '../Imágenes';
+import { imagenes } from '../imagenes';
 
 @Component({
   selector: 'app-parte-superior',

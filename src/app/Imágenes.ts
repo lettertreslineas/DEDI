@@ -1,8 +1,8 @@
 export interface imagene {
-  logo:string,
+  logo:string;
 }
 export const imagenes = [{
-logo:"https://pixabay.com/es/vectors/search/desplazarse/",
+logo:""
 
 }
 
